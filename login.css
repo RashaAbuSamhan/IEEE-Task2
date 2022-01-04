@@ -1,0 +1,52 @@
+body
+{
+
+text-align: center;
+
+background-image: radial-gradient(circle,rgb(140,197,229),rgb(127,228,240),rgb(137,209,232));
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+form{
+
+margin:auto;
+
+    background-color:rgb(245,245,245);
+    padding-top: 20px;
+    padding-bottom: 20px ;
+    width: 25%;
+    font-weight: bold;
+
+
+}
+
+
+  input[type=password],input[type=email] {
+    border: 2px solid black;
+  border-radius: 2px;
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;    
+  } 
+
+  a[href="#"]{
+margin-left: 35%;
+color: rgba(72, 195, 236, 0.856);
+
+  } 
+
+
+  button[type= submit] {
+    background-color: rgb(0,0,0);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
